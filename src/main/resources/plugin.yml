@@ -1,0 +1,22 @@
+name: SimpleBarrier
+version: "1.0"
+main: com.rmpi.nukkit.barrier.SimpleBarrier
+api: 1.0.0
+author: RMPI
+description: Simple barrier plugin
+commands:
+    barrier:
+        permission: barrier.exec
+        description: Controls barrier
+        usage: |
+            /barrier pos1 - Select barrier position 1
+            /barrier pos2 - Select barrier position 2
+            /barrier add <name> - Add barrier
+            /barrier del <name> - Delete barrier
+            /barrier delall - Cleans barrier
+            /barrier list - Dump barriers
+permissions:
+    barrier.exec:
+        default: op
+    barrier.thrw:
+        default: op
