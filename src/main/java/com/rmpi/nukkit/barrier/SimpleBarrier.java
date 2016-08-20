@@ -12,14 +12,9 @@ import cn.nukkit.event.EventPriority;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerInteractEvent;
 import cn.nukkit.event.player.PlayerMoveEvent;
-import cn.nukkit.level.Position;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.TextFormat;
 
-class PositionPair {
-	public Position first = null;
-	public Position second = null;
-}
 
 public class SimpleBarrier extends PluginBase implements Listener {
 	private static SimpleBarrier instance;

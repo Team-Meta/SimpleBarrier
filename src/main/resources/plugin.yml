@@ -13,7 +13,7 @@ commands:
             /barrier pos2 - Select barrier position 2
             /barrier add <name> - Add barrier
             /barrier del <name> - Delete barrier
-            /barrier delall - Cleans barrier
+            /barrier delall - Clean all barriers
             /barrier list - Dump barriers
 permissions:
     barrier.exec:
